@@ -21,6 +21,7 @@ body {
     position: absolute;
     width: 100%;
     height: auto;
+  z-index: 1;
 }
 
     .slide img {
@@ -28,6 +29,7 @@ body {
         height: auto;
         border-radius: 10px;
         animation: fade 1s ease-in-out;
+          z-index: 1;
     }
 
 @keyframes fade {
@@ -142,6 +144,7 @@ body {
   border-radius: 10px;
   transition: opacity 1s ease-in-out;
   opacity: 0;
+  z-index: 1;
 }
 
 .slide.showing img {
