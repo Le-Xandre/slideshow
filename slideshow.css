@@ -95,3 +95,27 @@ body {
         color: #aaa;
     }
 }
+.slideshow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* Réserve un grand espace au slideshow */
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  height: auto;
+  position: relative; /* plus de absolute */
+  text-align: center;
+}
+
+.slide img {
+  width: auto;
+  max-width: 100%;
+  max-height: 80vh;
+  height: auto;
+  margin: auto;
+  display: block;
+  object-fit: contain;
+}
